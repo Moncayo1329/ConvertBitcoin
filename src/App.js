@@ -1,11 +1,16 @@
-
+import React from 'react';
+import CurrencyRow from './CurrencyRow';
 import './App.css';
 
 function App() {
   return (
-   <div>
-    <h1>Helllo world</h1>
-    </div>
+   <>
+    <h1>Convert</h1>
+    <CurrencyRow />
+    = 
+    <CurrencyRow />
+
+    </>
   );
 }
 
