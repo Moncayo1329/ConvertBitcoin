@@ -1,13 +1,16 @@
 import React from 'react';
-import CurrencyRow from './CurrencyRow';
 import './App.css';
+import CurrencyRow from './CurrencyRow';
+
+const BASE_URL = 'https://api.exchangeratesapi.io/latest'
+
 
 function App() {
   return (
    <>
     <h1>Convert</h1>
     <CurrencyRow />
-    = 
+    <div className='equals'>=</div>
     <CurrencyRow />
 
     </>
